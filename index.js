@@ -4,4 +4,5 @@ function breakOut(a, x, k) {
     if (a[i] === k) break;
     a[i] = x;
   }
+  return a;
 }
