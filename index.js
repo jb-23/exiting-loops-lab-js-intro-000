@@ -14,3 +14,10 @@ function keepGoing(a, x, k) {
   }
   return a;
 }
+
+function findBy(a, f) {
+  for (var i=0; i<a.length; ++i) {
+    if (f(a[i])) return a[i];
+  }
+  return null;
+}
